@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Daily Planner ✨</h1>
+
+        <div class="task-box">
+            <input type="text" id="taskInput" placeholder="Write your task here...">
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <div class="stats">
+            <p>Total Tasks: <span id="total">0</span></p>
+            <p>Completed Tasks: <span id="completed">0</span></p>
+            <p>Remaining Tasks: <span id="remaining">0</span></p>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <div class="message">
+            <p id="motivation">Keep going! 🚀</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
